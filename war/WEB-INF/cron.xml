@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+<cron>
+    <url>/crawcontentyoo?start=0</url>
+    <description>Update efreedom url question</description>
+    <schedule>every 5 minutes</schedule>
+  </cron>
+  <cron>
+    <url>/crawyoo?name=home</url>
+    <description>Update efreedom url question</description>
+    <schedule>every 10 minutes</schedule>
+  </cron>
+  <cron>
+    <url>/cron_update</url>
+    <description>Update efreedom url question</description>
+    <schedule>every 1 minutes</schedule>
+  </cron>
+  <cron>
+    <url>/delete-content</url>
+    <description>Update efreedom url question</description>
+    <schedule>every 1 minutes</schedule>
+  </cron>
+</cronentries>
