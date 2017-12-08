@@ -1,0 +1,313 @@
+@charset "ISO-8859-1";
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent none repeat scroll 0 0;
+border:0 none;
+outline-color:#-moz-use-text-color;
+outline-style:none;
+outline-width:0;
+font-family:Helvetica,Arial,Tahoma,sans-serif;
+font-size:12px;
+margin:0;
+padding:0;
+}
+
+.clear {
+clear:both;
+}
+
+.headder {
+width:970px;
+height:100px;
+border:1px solid #2F4F4F;
+border-top:15px solid #2F4F4F;
+margin:0px auto 10px;
+}
+
+.content {
+width:970px;
+margin:auto;
+}
+
+.list {
+float:left;
+width:170px;
+border:1px solid #CCC;
+background:#CCF;
+}
+
+.child_list {
+list-style-type:none;
+border:2px solid #000;
+width:150px;
+margin:10px auto;
+}
+
+.child_list .one {
+background:#000;
+color:#FFF;
+font-weight:700;
+font-size:14px;
+}
+
+.child_list li {
+background:#2F4F4F;
+padding:4px;
+}
+
+.child_list li a {
+text-decoration:none;
+color:#FFF;
+font-weight:700;
+display:block;
+}
+
+.child_list li a:hover {
+color:#000;
+}
+
+.child_list li:hover {
+background:#CCF;
+}
+
+.show {
+float:left;
+margin-left:10px;
+width:560px;
+}
+
+.list_articles {
+list-style:none;
+}
+
+.list_articles li {
+overflow:hidden;
+padding:10px;
+}
+
+.list_articles li a {
+text-decoration:none;
+font-size:16px;
+color:blue;
+font-weight:700;
+}
+
+.tags {
+background:#CCF;
+padding:10px;
+}
+
+.tags a:hover {
+color:#2F4F4F;
+}
+
+.related {
+float:right;
+width:210px;
+}
+
+.info_author {
+border:1px solid #CCF;
+overflow:hidden;
+margin-bottom:10px;
+padding:10px;
+}
+
+.show_content {
+line-height:20px;
+font-size:14px;
+text-align: justify;
+}
+
+.info_author a {
+text-decoration:none;
+}
+
+.show_t_r {
+list-style-type:none;
+}
+
+.show_t_r li {
+padding:5px;
+}
+
+.show_t_r .one {
+background:#CCF;
+font-weight:700;
+font-size:14px;
+}
+
+.author a {
+color:#8B4513;
+text-decoration:none;
+}
+
+.tag {
+text-align:justify;
+line-height:20px;
+}
+
+.tag1 {
+font-size:12px;
+}
+
+.tag5 {
+font-size:27px;
+}
+
+.list_r {
+padding-left:24px;
+}
+
+.list_r li a {
+color:blue;
+text-decoration:none;
+}
+
+.footer {
+width:950px;
+text-align:center;
+font-weight:700;
+margin:15px auto 0;
+padding:0 45px 0 0;
+}
+
+.footer div {
+border-top:3px solid #2F4F4F;
+width:540px;
+margin:auto;
+padding:10px;
+}
+
+.show h2,.tag4 {
+font-size:23px;
+}
+
+.list_articles li a:hover,.list_r li a:hover {
+color:#2F4F4F;
+text-decoration:underline;
+}
+
+.submit li {
+list-style:none;
+border:1px solid #CCC;
+background:#EFEFEF;
+margin-top:5px;
+padding:10px;
+}
+
+.submit li input {
+width:470px;
+}
+
+.submit select {
+width:300px;
+}
+
+.submit textarea {
+width:470px;
+height:100px;
+}
+
+.submit p {
+padding-top:5px;
+}
+
+.submit .a_c {
+height:150px;
+}
+
+.list_articles li span,.author {
+color:#8B4513;
+}
+
+.tags a,.tag a {
+text-decoration:none;
+color:blue;
+}
+
+.info_author a:HOVER,.author a:HOVER,.tag a:hover {
+text-decoration:underline;
+}
+
+.show h1,.tag3 {
+font-size:19px;
+}
+
+.tag2,.submit h3 {
+font-size:15px;
+}
+.list_articles .paginate {
+text-align:right;
+padding-right:30px;
+padding-top:20px;
+}
+
+.list_articles .paginate a {
+text-decoration:none;
+border:1px solid #A8DCFF;
+color:#000;
+margin-left:3px;
+padding:3px 5px;
+font-size: 12px;
+}
+
+.list_articles .paginate span {
+text-decoration:none;
+border:1px solid #A8DCFF;
+background:#A8DCFF;
+color:red;
+margin-left:3px;
+padding:3px 5px;
+}
+
+.list_articles .paginate a:hover {
+color:red;
+}
+.author .vote{
+color:blue;
+text-decoration: none;
+}
+.author .vote:hover{
+text-decoration: underline;
+}
+.show_content p{
+margin-bottom: 10px;
+}
+.list_articles .show_content a{
+font-size: 12px;
+}
+.info_addon{
+border: 1px solid #CCCCFF;
+margin-bottom: 10px;
+padding: 10px;
+}
+.link_author{
+color: #8B4513 !important;
+font-size: 12px !important;
+font-weight: normal !important;
+}
+.send_mail textarea {
+    display: block;
+    height: 150px;
+    width: 400px;
+}
+.send_mail input {
+    display: block;
+    width: 300px;
+}
+.language{
+height: 20px;
+margin: auto;
+width: 970px;
+margin-top: 3px;
+}
+.right{
+float: right;
+}
+.left{
+float: left;
+}
+.adv_three{width: 250px;height: 250px;border: 1px solid #CCC;float: right;margin-left: 10px;}

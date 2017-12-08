@@ -1,0 +1,115 @@
+@charset "ISO-8859-1";
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background:transparent none repeat scroll 0 0;
+border:0 none;
+outline-color:#-moz-use-text-color;
+outline-style:none;
+outline-width:0;
+font-family:Helvetica,Arial,Tahoma,sans-serif;
+font-size:12px;
+margin:0;
+padding:0;
+}
+
+.clear {
+clear:both;
+}
+
+.headder {
+border:1px solid #2F4F4F;
+border-top:15px solid #2F4F4F;
+margin:0px 15px 0px 15px;
+}
+.link_index{
+padding: 15px;
+}
+.link_index a{
+font-size: 23px;
+font-weight: bold;
+}
+.back{
+padding: 15px;
+}
+.back a{
+font-weight: bold;
+font-size: 14px;
+}
+.content{
+border: 1px solid #2F4F4F;
+padding: 10px;
+margin:0px 15px 10px 15px;
+color: #2F4F4F;
+}
+.list{
+padding-left: 20px;
+list-style-type: none;
+}
+.list li{
+padding: 5px 0px 5px 20px;
+}
+.one{
+font-size: 19px;
+font-weight: bold;
+color: #FF6600;
+background: url("/image/par.gif") no-repeat scroll 1px 10px;
+}
+.list li a{
+text-decoration: none;
+font-size: 14px;
+font-weight: bold;
+color: #2F4F4F;
+background: url("/image/list_marker.gif") no-repeat scroll 0px 6px;
+padding-left: 15px;
+}
+.list li a:hover{
+text-decoration: underline;
+color: #FF6600;
+}
+.list_articles{
+padding-left: 40px;
+}
+.list_articles li{
+padding: 5px;
+}
+.list_articles li a{
+text-decoration: none;
+font-size: 13px;
+font-weight: bold;
+}
+.list_articles li a:hover{
+text-decoration: underline;
+color: #FF6600;
+}
+.list_articles li span{
+color: #2F4F4F;
+}
+.paginate {
+text-align:left;
+padding:15px;
+list-style: none;
+}
+
+.paginate a {
+text-decoration:none;
+border:1px solid #A8DCFF;
+color:#000;
+margin-left:3px;
+padding:3px 5px;
+font-size: 12px;
+}
+
+.paginate span {
+text-decoration:none;
+border:1px solid #A8DCFF;
+background:#A8DCFF;
+color:red;
+margin-left:3px;
+padding:3px 5px;
+}
+
+.paginate a:hover {
+color:red;
+}

@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".vote").click(function(){$("#vote").html("Cargando ...");$.post('/vote',{vote:$(this).attr("title"),alias:alias},function (data){$("#vote").html("Gracias por votar");});});});
